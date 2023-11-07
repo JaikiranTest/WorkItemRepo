@@ -1,0 +1,40 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /*font-family: sans-serif;
+    margin: 0 50px;
+    background-color: #e5e5e5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;*/
+}
+
+.NameStyle {
+    text-decoration: none;
+}
+
+.button {
+    position: relative;
+    padding: 6px 15px;
+    left: -5px;
+    border: 2px solid #207cca;
+    background-color: #207cca;
+    color: #fafafa;
+    text-decoration: none;
+}
