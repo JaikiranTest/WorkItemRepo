@@ -29,7 +29,7 @@
 	- Followed coding Standards
 	- As this is a Database application, Code first approach has been followed
 	
-#NOTE:
+# NOTE:
 	1) Requirement was to develop and host in Azure platform
 		- Azure is paid service, I am not able to deploy on Azure platform as I do not have free Azure account. But as this is a Containerized application
 			you can choose Azure Container Instance or for more features (auto scaling) you can prefer Azure Kubernetes Service(AKS).
