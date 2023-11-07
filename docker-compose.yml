@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  workitem.task:
+    image: ${DOCKER_REGISTRY-}workitemtask
+    build:
+      context: .
+      dockerfile: WorkItem.Task/Dockerfile
